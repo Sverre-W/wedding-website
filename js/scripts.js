@@ -238,7 +238,7 @@ $(document).ready(function () {
 });
 
 /********************** Extras **********************/
-
+//https://script.google.com/macros/s/AKfycbym6JNjevMp8_FxNyPXupGUY4AH9ROJqeJo6x3k6TgiXZILdvHocsvU4Ft5v0juCir1/exec
 // Google map
 function initMap() {
     var location = {lat: 22.5932759, lng: 88.27027720000001};
