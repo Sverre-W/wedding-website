@@ -184,10 +184,10 @@ $(document).ready(function () {
         },
         data: {
             // Event title
-            title: "Ram and Antara's Wedding",
+            title: "The Aranas Wedding",
 
             // Event start date
-            start: new Date('Dec 5, 2023 10:00'),
+            start: new Date('Dec 5, 2023 09:00'),
 
             // Event duration (IN MINUTES)
             // duration: 120,
@@ -197,10 +197,10 @@ $(document).ready(function () {
             end: new Date('Dec 5, 2023 23:00'),
 
             // Event Address
-            address: 'ITC Fortune Park Hotel, Kolkata',
+            address: 'Cathedral Shrine Parish of Saint Joseph, Balanga city',
 
             // Event Description
-            description: "We can't wait to see you on our big day. For any queries or issues, please contact Mr. Amit Roy at +91 9876543210."
+            description: "We can't wait to see you on our big day. For any queries or issues, please contact Mhika Georgia at 09456198113."
         }
     });
 
@@ -214,7 +214,7 @@ $(document).ready(function () {
 
         $('#alert-wrapper').html(alert_markup('info', '<strong>Just a sec!</strong> We are saving your details.'));
 
-        if (MD5($('#invite_code').val()) !== 'b0e53b10c1f55ede516b240036b88f40'
+        if (MD5($('#invite_code').val()) !== '675252b8f7cb974f9f005dbc13c43e9c'
             && MD5($('#invite_code').val()) !== '2ac7f43695eb0479d5846bb38eec59cc') {
             $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> Your invite code is incorrect.'));
         } else {
